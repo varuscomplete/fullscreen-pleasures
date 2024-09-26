@@ -6,7 +6,7 @@ const Loader: FC = () => {
     <Html>
       <div className="loader-wrapper">
         <span className="loader" />
-        <p>LOADING...</p>
+        <p>FULLSCREENING...</p>
       </div>
     </Html>
   );

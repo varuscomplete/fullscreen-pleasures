@@ -74,7 +74,7 @@ export function useAnimations() {
         group.position,
         {
           z: "+=50",
-          duration: 6,
+          duration: 26,
           ease: "power1.out",
           delay: Math.pow(normalizedIndex, 1.5) * 6,
         },
@@ -88,7 +88,7 @@ export function useAnimations() {
       {
         opacity: 0,
         y: 100,
-        duration: 3,
+        duration: 13,
         ease: "power1.out",
       },
       Label.Start
@@ -99,7 +99,7 @@ export function useAnimations() {
       {
         opacity: 0,
         y: 100,
-        duration: 3,
+        duration: 13,
         ease: "power1.out",
       },
       Label.Start
@@ -117,7 +117,7 @@ export function useAnimations() {
       ".reset-overlay",
       {
         opacity: 1,
-        duration: 4,
+        duration: 14,
         ease: "power1.out",
         onComplete: () => {
           // stop current animations in this stage

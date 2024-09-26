@@ -8,26 +8,26 @@ interface Props {
 const LineTexts: FC<Props> = (props) => {
   return (
     <>
-      {props.index === 24 ? (
+      {props.index === 34 ? (
         <Html position={[-5, 5, 1]}>
           <p className="texts stage-three when-routine-bites-hard">
-            WHEN ROUTINE BITES HARD
+            BE THE ONE WE NEED
           </p>
         </Html>
       ) : null}
 
-      {props.index === 36 ? (
+      {props.index === 46 ? (
         <Html position={[-2, -2, 1]}>
           <p className="texts stage-three and-ambitions-are-low">
-            AND AMBITIONS ARE LOW
+            BE THE ONE WE NEED
           </p>
         </Html>
       ) : null}
 
-      {props.index === 54 ? (
+      {props.index === 64 ? (
         <Html position={[-5, 12, 1]}>
           <p className="texts stage-three and-resentment-rides-high">
-            AND RESENTMENT RIDES HIGH
+            I DON'T UNDERSTAND
           </p>
         </Html>
       ) : null}
@@ -35,26 +35,26 @@ const LineTexts: FC<Props> = (props) => {
       {props.index === 0 ? (
         <Html position={[0, 1, 1]}>
           <p className="texts stage-four but-emotions-wont-grow">
-            BUT EMOTIONS <br /> WON'T GROW
+            THIS IS WHAT <br /> WE HAVE
           </p>
           <p className="texts stage-four and-were-changing-our-ways">
-            AND WE'RE <br /> CHANGING OUR WAYS
+            BEEN <br /> EXPECTING FOR
           </p>
           <p className="texts stage-four taking-different-roads">
-            TAKING <br /> DIFFERENT ROADS
+            WAITING FOR <br /> EXPECTING FOR
           </p>
         </Html>
       ) : null}
 
       {props.index === 0 ? (
         <Html position={[0, 0, 1.7]}>
-          <p className="texts stage-five again">AGAIN</p>
+          <p className="texts stage-five again">WAITING</p>
         </Html>
       ) : null}
 
       {props.index === 0 ? (
         <Html position={[0, 0, 2]}>
-          <p className="texts stage-five love">LOVE</p>
+          <p className="texts stage-five love">WAITING FOR</p>
         </Html>
       ) : null}
     </>

@@ -69,10 +69,10 @@ function Texts() {
       {/* intro texts */}
       <div id="intro">
         <h1 ref={titleRef} {...cursorHover.text}>
-          UNKNOWN PLEASURES
+          HEAVYWEIGHT
         </h1>
         <p ref={descriptionRef} {...cursorHover.text}>
-          a tiny web experiment.
+          DJ Fresh.
         </p>
       </div>
       <div ref={playButtonRef} id="start">
@@ -82,13 +82,13 @@ function Texts() {
           onClick={handleStart}
         >
           <Play />
-          <span>LOSE CONTROL</span>
+          <span>FULLSCREEN</span>
         </button>
       </div>
       <footer ref={footerRef}>
         <div id="credits">
-          <p {...cursorHover.text}>love will tear us apart by joy division.</p>
-          <p {...cursorHover.text}>* I do not own the music.</p>
+          <p {...cursorHover.text}>This is what you have been waiting for</p>
+          <p {...cursorHover.text}>* I do not understand.</p>
         </div>
         <div id="source">
           <p>
@@ -99,19 +99,7 @@ function Texts() {
               target="_blank"
               {...cursorHover.link}
             >
-              pouria.dev
-            </a>
-            .
-          </p>
-          <p>
-            source available on{" "}
-            <a
-              href="https://github.com/poeti8/unknown-pleasures"
-              title="github"
-              target="_blank"
-              {...cursorHover.link}
-            >
-              github
+              embracing perfection
             </a>
             .
           </p>
@@ -124,18 +112,18 @@ function Texts() {
        * it was easier to put them on screen as independet html element
        * rather than assign it to a three.js object (line)
        */}
-      <p className="texts stage-five then-love">THEN LOVE</p>
+      <p className="texts stage-five then-love">WAITING FOR</p>
       <p className="texts stage-five love-will-tear-us-aprat">
-        LOVE WILL TEAR US APART
+        BE THE ONE WE NEED
       </p>
       <div className="stage-five-wrapper">
         <p className="texts stage-five love-will-tear-us-aprat-2">
-          LOVE WILL TEAR US APART
+          THIS IS WHAT YOU HAVE BEEN WAITING FOR
         </p>
         <div id="again-btn-wrapper">
           <button {...cursorHover.link} onClick={handleAgain}>
             <Repeat />
-            <span>AGAIN</span>
+            <span>I DONT UNDERSTAND</span>
           </button>
         </div>
       </div>

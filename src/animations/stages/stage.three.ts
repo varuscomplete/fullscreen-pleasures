@@ -31,8 +31,8 @@ export function useAnimations() {
     // only run when the stage is three
     if (stage !== Stage.Three) return;
 
-    const duration = 2.5;
-    const textDuration = 3;
+    const duration = 25.5;
+    const textDuration = 30;
     const surfingDuration = 25;
 
     const timeline = createTimeline(pause, reverse, {
@@ -242,7 +242,7 @@ export function useAnimations() {
       {
         opacity: 0,
         y: 300,
-        duration: 3,
+        duration: 20,
         ease: "power2.out",
       },
       `${Label.Texts}+=8.5`

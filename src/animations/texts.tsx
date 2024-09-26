@@ -25,23 +25,23 @@ export function useTextsAnimation(
     if (isTrackPlaying) {
       gsap.to(title, {
         opacity: 0,
-        duration: 2.5,
+        duration: 4.5,
         ease: "power2.out",
       });
       gsap.to(description, {
         opacity: 0,
-        duration: 2.5,
+        duration: 4.5,
         ease: "power2.out",
         delay: 0.3,
       });
       gsap.to(footer, {
         opacity: 0,
-        duration: 1,
+        duration: 3,
         ease: "power2.out",
       });
       gsap.to(startButton, {
         opacity: 0,
-        duration: 1,
+        duration: 3,
         ease: "power2.out",
         onComplete: () => {
           gsap.set(footer, { display: "none" });

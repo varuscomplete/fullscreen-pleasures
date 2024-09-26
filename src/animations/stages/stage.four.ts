@@ -36,7 +36,7 @@ export function useAnimations() {
     stars!.visible = true;
     moon!.visible = true;
 
-    const duration = 3;
+    const duration = 15;
 
     const timeline = createTimeline(pause, reverse, {
       onUpdate: () => {
@@ -176,7 +176,7 @@ export function useAnimations() {
       {
         opacity: 1,
         y: 0,
-        duration: 3.5,
+        duration: 13.5,
         ease: "power1.out",
       },
       Label.Texts
@@ -187,7 +187,7 @@ export function useAnimations() {
       {
         opacity: 1,
         y: 0,
-        duration: 3.5,
+        duration: 13.5,
         ease: "power1.out",
       },
       `${Label.Texts}+=3`
@@ -198,7 +198,7 @@ export function useAnimations() {
       {
         opacity: 1,
         y: 0,
-        duration: 3.5,
+        duration: 9.5,
         ease: "power1.out",
       },
       `${Label.Texts}+=6`
@@ -209,7 +209,7 @@ export function useAnimations() {
       {
         opacity: 0,
         y: -100,
-        duration: 1,
+        duration: 20,
         ease: "power1.out",
       },
       `${Label.Texts}+=8.2`
@@ -220,7 +220,7 @@ export function useAnimations() {
       {
         opacity: 0,
         y: -100,
-        duration: 1,
+        duration: 10,
         ease: "power1.out",
       },
       `${Label.Texts}+=8.4`
@@ -231,7 +231,7 @@ export function useAnimations() {
       {
         opacity: 0,
         y: -100,
-        duration: 1,
+        duration: 20,
         ease: "power1.out",
       },
       `${Label.Texts}+=8.6`

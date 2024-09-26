@@ -41,7 +41,7 @@ function togglePause(
   if (pause.current.value === false) return;
 
   timeline.pause();
-  const interval = setInterval(resumeHandler, 100);
+  const interval = setInterval(resumeHandler, 10000);
 
   function resumeHandler() {
     if (pause.current.value === false) {

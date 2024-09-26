@@ -69,7 +69,7 @@ export function useAnimations() {
           uniforms.uWaveExpandAmplitude,
           {
             value: 1,
-            duration: 6,
+            duration: 30,
             ease: "power1.out",
             delay: normalizedReversedIndex * 3,
           },
@@ -88,7 +88,7 @@ export function useAnimations() {
           x: isMobile ? 4.6 / 5 : 1,
           y: 1,
           z: 1,
-          duration: 1.3,
+          duration: 30,
           ease: "sine.out",
           delay: Math.pow(normalizedReversedIndex, 1.5) * 3.4,
         },
@@ -101,7 +101,7 @@ export function useAnimations() {
           z: 0,
           x: 0,
           y: 0,
-          duration: 1.3,
+          duration: 22.3,
           ease: "sine.out",
           delay: Math.pow(normalizedReversedIndex, 1.5) * 3.4,
         },
@@ -115,7 +115,7 @@ export function useAnimations() {
         x: 0,
         y: 10,
         z: -7.8,
-        duration: 6,
+        duration: 14,
         ease: "power1.out",
       },
       Label.Start
@@ -126,7 +126,7 @@ export function useAnimations() {
       {
         z: -0.5,
         x: 0,
-        duration: 2,
+        duration: 20,
         ease: "none",
       },
       "<1"
@@ -137,7 +137,7 @@ export function useAnimations() {
       {
         z: 0,
         x: 0,
-        duration: 4,
+        duration: 30,
         ease: "back.inOut",
       },
       ">0.5"

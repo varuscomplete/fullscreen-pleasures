@@ -90,9 +90,9 @@ export function useAnimations() {
     if (stage !== Stage.Two) return;
 
     // duration of the first animation, "line explosion"
-    const duration = 3;
+    const duration = 25;
     // duration for surfing camera above the lines
-    const surfingDuration = 14;
+    const surfingDuration = 24;
 
     setTimeout(() => {
       lines.children.forEach((group) => {

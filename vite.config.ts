@@ -4,6 +4,6 @@ import glsl from "vite-plugin-glsl";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/unknown-pleasures",
+  base: "/fullscreen-heavyweight",
   plugins: [react(), glsl()],
 });
